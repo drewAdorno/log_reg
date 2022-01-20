@@ -4,6 +4,7 @@ from .models import *
 import bcrypt
 
 def index(request):
+    print('Drew was here')
     return render(request, 'index.html')
 
 def register(request):
